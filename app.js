@@ -28,7 +28,7 @@ app.post("/sendmail", (req, res)=>{
     if (!name) {
         return res.status(400).json({error: "Please add your name"});
     } else if (name.length <= 3) {
-        return res.status(400).json({error: "Name must be at least 4 letters ooo"});
+        return res.status(400).json({error: "Name must be at least 4 letters"});
     }
 
     if (!mail) {
