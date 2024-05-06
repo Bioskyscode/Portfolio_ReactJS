@@ -78,6 +78,7 @@ const Contact = () => {
                     });
                     setName("")
                     setMail("")
+                    setJobtype("")
                     setMessage("")
                 }
             })
@@ -122,20 +123,20 @@ const Contact = () => {
                                 <select className='custom-select-tag'
                                     value={jobtype} onChange={e => setJobtype(e.target.value)}
                                     style={!jobtype ? { border: "1px solid #fecaca" } : { border: "1px solid #14b8a6" }}
-                                    > 
+                                >
                                     <option>Full-Time</option>
                                     <option>Part-Time</option>
                                     <option>Others</option>
                                 </select>
-                                <div className='contact-form'>
-                                    <label className='form-label'>{errorMessage ? <p className='error'>{errorMessage}</p> : "Message"}</label>
-                                    <textarea type='text' className='form-control'
-                                        style={message.length < 10 ? { border: "1px solid #fecaca" } : { border: "1px solid #14b8a6" }}
-                                        value={message} onChange={messageValidation}
-                                    />
-                                </div>
-                                <button onClick={sendEmail} className='submit'><span>Send <i className="fa-regular fa-paper-plane"></i></span></button>
                             </div>
+                            <div className='contact-form'>
+                                <label className='form-label'>{errorMessage ? <p className='error'>{errorMessage}</p> : "Message"}</label>
+                                <textarea type='text' className='form-control'
+                                    style={message.length < 10 ? { border: "1px solid #fecaca" } : { border: "1px solid #14b8a6" }}
+                                    value={message} onChange={messageValidation}
+                                />
+                            </div>
+                            <button onClick={sendEmail} onTouchStart={sendEmail} className='submit'><span>Send <i className="fa-regular fa-paper-plane"></i></span></button>
                         </form>
 
                     </div>

@@ -40,8 +40,9 @@ input {
 }
 
 .submit:hover {
-    padding-block: 9px;
+    /* padding-block: 9px; */
     color: black;
+    transition-duration: 1s;
 }
 
 i {
