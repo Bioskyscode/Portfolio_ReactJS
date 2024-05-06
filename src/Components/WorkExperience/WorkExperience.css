@@ -1,0 +1,40 @@
+.tech-skill{
+    border-radius: 7px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tech-skill:hover{
+    border-radius: 50px;
+    cursor: pointer;
+}
+.work-des{
+    color: #f0f9ff;
+}
+
+@media (max-width:1170px) {
+    .date-class{
+        color: white;
+    }
+}
+@media (min-width:1170px) {
+    .date-class{
+        color: black;
+    }
+    #dark .date-class{
+        color: white;
+    }
+}
+.work-experience-section{
+    margin-top: 30px;
+}
+.job-location{
+    color: #f5f3ff;
+    font-size: small;
+}
+.color{
+    color: white;
+}
+
+

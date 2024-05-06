@@ -1,0 +1,37 @@
+.footer{
+    background-color: var(--text-color-focus);
+    height: auto;
+    color: #f5d0fe;
+    padding: 30px 0;
+}
+.content{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 70dvw;
+    height: 100%;
+    margin: auto;
+    
+}
+.content ul{
+    padding: 0;
+}
+.content li{
+    display: flex;
+    gap: 10px;
+    color: #ddd6fe;
+    margin: 0;
+    cursor: default;
+}
+
+.content li i{
+    margin: 0;
+    color: #ddd6fe;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+#dark .footer{
+    background-color: black;
+    color: white;
+}
