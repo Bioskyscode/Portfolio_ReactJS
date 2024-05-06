@@ -7,7 +7,6 @@ import colors from '../Colors';
 
 const WorkExperience = () => {
     const work = [
-
         {
             companyname: "Biqx GmbH",
             location: "Braunschweig, Germany",

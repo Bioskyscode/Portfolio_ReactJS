@@ -20,6 +20,7 @@ const TeckStack = () => {
         { name: "Bootstrape" },
         { name: "GIT" },
     ];
+    
     const colors = ["#ED9455", "#322C2B", "#8B322C", "#41B06E", "#6C0345",
         "#DC6B19", "#49243E", "#BC7FCD", "#FB9AD1", "#475569",
         "#9B3922", "#FA7070", "#D6589F", "#627254", "#4b5563"];

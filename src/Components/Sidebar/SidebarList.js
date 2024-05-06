@@ -3,7 +3,6 @@ import "./SidebarList.css";
 import { Link } from "react-scroll";
 import sidebarItems from './NavItems';
 
-
 const SidebarList = (prop) => {
 
   return (

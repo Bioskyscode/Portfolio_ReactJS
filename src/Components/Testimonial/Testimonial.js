@@ -44,7 +44,6 @@ const Testimonial = () => {
             des: "He was good at his work. He worked on several complex project",
             img: "https://images.pexels.com/photos/884422/pexels-photo-884422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         },
-
         
     ];
 

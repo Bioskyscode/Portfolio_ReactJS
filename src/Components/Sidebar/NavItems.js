@@ -1,6 +1,3 @@
-import React from 'react'
-import { FcHome, FcNightPortrait, FcSalesPerformance, FcFactory, FcTodoList, FcContacts } from "react-icons/fc";
-import { MdBiotech, MdCastForEducation } from "react-icons/md";
 
 const sidebarItems = [
   {

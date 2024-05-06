@@ -9,7 +9,7 @@ function Footer() {
                     <h5>Contact Info</h5>
                     <ul>
                         <li><i className="fa-solid fa-phone fa-fade"></i> +49177690866</li>
-                        <li><i className="fa-regular fa-envelope fa-fade"></i> ajibade.abiodun@outlook.com</li>
+                        <li><i className="fa-regular fa-envelope fa-fade"></i> <a href="mailto:ajibade.abiodun@outlook.com">ajibade.abiodun@outlook.com</a></li>
                     </ul>
                 </div>
                 <div className="info">

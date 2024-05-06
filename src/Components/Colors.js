@@ -1,4 +1,3 @@
-
 const colors = [
     "#818cf8",
     "#a78bfa",

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import "./Home.css";
 import Typewriter from 'typewriter-effect';
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";

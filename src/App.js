@@ -12,6 +12,7 @@ import ScrollToTop from "react-scroll-to-top";
 import "./App.css"
 import NavbarMobile from './Components/Sidebar/NavbarMobile'
 
+
 export const ThemeContext = createContext(null);
 
 const App = () => {

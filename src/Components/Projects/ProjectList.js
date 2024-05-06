@@ -9,6 +9,7 @@ const ProjectList = ({ name, des, projectlink, techused }) => {
     function showMore() {
         setShow(!show)
     }
+    
     return (
             <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", stiffness: 70 }} className='project-list'>
                 <div className='title-and-collapse-option'>

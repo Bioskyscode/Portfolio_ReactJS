@@ -72,7 +72,7 @@ const Contact = () => {
                     });
 
                 } else {
-                    toast.success("Message has been sent", {
+                    toast.success(result.success, {
                         position: "top-right",
                         className: "toast-msg"
                     });
@@ -105,7 +105,7 @@ const Contact = () => {
                             <div className='contact-form'>
                                 <label className='form-label'>{errorName ? <p className='error'>{errorName}</p> : "Name"}</label>
 
-                                <input type='text' style={name.length <= 3 ? { border: "1px solid #ef4444" } : { border: "1px solid #14b8a6" }} className='form-control'
+                                <input type='text' style={name.length <= 3 ? { border: "1px solid #fecaca" } : { border: "1px solid #14b8a6" }} className='form-control'
                                     value={name} onChange={nameValidation}
                                 />
                             </div>
@@ -113,14 +113,16 @@ const Contact = () => {
 
                                 <label className='form-label'>{errorMail ? <p className='error'>{errorMail}</p> : "Email"}</label>
                                 <input type='text' className='form-control'
-                                    style={!regEx.test(mail) ? { border: "1px solid #ef4444" } : { border: "1px solid #14b8a6" }}
+                                    style={!regEx.test(mail) ? { border: "1px solid #fecaca" } : { border: "1px solid #14b8a6" }}
                                     value={mail} onChange={emailValidation}
                                 />
                             </div>
                             <div className='contact-form'>
                                 <label className='form-label'>Job Type</label>
                                 <select className='custom-select-tag'
-                                    value={jobtype} onChange={e => setJobtype(e.target.value)}>
+                                    value={jobtype} onChange={e => setJobtype(e.target.value)}
+                                    style={!jobtype ? { border: "1px solid #fecaca" } : { border: "1px solid #14b8a6" }}
+                                    > 
                                     <option>Full-Time</option>
                                     <option>Part-Time</option>
                                     <option>Others</option>
@@ -128,7 +130,7 @@ const Contact = () => {
                                 <div className='contact-form'>
                                     <label className='form-label'>{errorMessage ? <p className='error'>{errorMessage}</p> : "Message"}</label>
                                     <textarea type='text' className='form-control'
-                                        style={message.length < 10 ? { border: "1px solid #ef4444" } : { border: "1px solid #14b8a6" }}
+                                        style={message.length < 10 ? { border: "1px solid #fecaca" } : { border: "1px solid #14b8a6" }}
                                         value={message} onChange={messageValidation}
                                     />
                                 </div>

@@ -3,7 +3,6 @@ import "./Sidebar.css"
 import Home from '../Home/Home';
 import SidebarList from './SidebarList';
 
-
 const Sidebar = ({ changeTheme, theme }) => {
     const [expandSidebar, setExpandSidebar] = useState(false);
 

@@ -70,7 +70,6 @@ const Project = () => {
 
     ];
 
-
     return (
         <div className='vanilla-container' id='project'>
             <div className='section-title'>

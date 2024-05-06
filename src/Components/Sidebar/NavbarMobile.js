@@ -4,7 +4,6 @@ import sidebarItems from './NavItems'
 import { Link } from "react-scroll";
 import Switch from "react-switch";
 
-
 const NavbarMobile = ({ theme, changeTheme }) => {
     const [openMenu, setOpenMenu] = useState(false);
 

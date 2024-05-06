@@ -23,7 +23,7 @@
     cursor: default;
 }
 
-.content li i{
+.content li i, a{
     margin: 0;
     color: #ddd6fe;
 }
