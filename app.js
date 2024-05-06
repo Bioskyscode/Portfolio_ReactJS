@@ -4,8 +4,6 @@ import cors from "cors";
 import nodemailer from "nodemailer";
 import sendGridtransport from "nodemailer-sendgrid-transport"
 import env from "dotenv"
-import { error } from "console";
-import { ifError } from "assert";
 
 const app = express();
 const port = process.env.PORT || 3001;
@@ -29,12 +27,12 @@ app.post("/sendmail", (req, res)=>{
 
     if (!name) {
         return res.status(400).json({error: "Please add your name"});
-    } else if (name < 3) {
-        return res.status(400).json({error: "Name must be at least 4 letters"});
+    } else if (name.length <= 3) {
+        return res.status(400).json({error: "Name must be at least 4 letters ooo"});
     }
 
     if (!mail) {
-        return res.status(400).json({error: "Please add your E-Mail"});
+        return res.status(400).json({error: "Please add your E-Mail Address"});
     }
 
     if (!jobtype) {
@@ -61,7 +59,7 @@ app.post("/sendmail", (req, res)=>{
             </ul>
         `,
     });
-    return res.status(200).json({sucess: "Mail sent!"});
+    return res.status(200).json({sucess: "Mail sent successfully!"});
 });
 
 app.listen(port, ()=>{
