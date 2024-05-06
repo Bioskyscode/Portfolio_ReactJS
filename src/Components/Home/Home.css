@@ -1,0 +1,90 @@
+.home-section{
+    height: 49dvh;
+    height: auto;
+    color: white;
+    background-image: linear-gradient(var(--home-bg), var(--body-bg));
+    color: #082f49;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+#dark .home-section{
+    background-image: linear-gradient(black, black);
+    color: #fef08a;
+}
+.home-content{
+    padding-block: 100px;
+    padding-left: 50px;
+    width: 50%;
+    width: auto;
+   
+}
+
+.Typewriter{
+    display: flex;
+    padding-top: 20px;
+    color: var(--text-color-focus);
+}
+
+#dark .Typewriter{
+    color: #c7d2fe;
+}
+
+ i{
+    margin-bottom: 30px;
+} 
+
+.buttons-for-action{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.get-resume-button a{
+    text-decoration: none;
+    color: var(--text-color-focus);
+}
+.hire-me-button{
+    background-color: #f0f9ff;
+}
+.get-resume-button{
+    background-color: #f3e8ff;
+}
+
+.change-theme{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    top: 50dvh;
+    right: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+}
+
+.light-icon{
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width:1000px) {
+    .change-theme{
+        display: none;
+    }
+    .buttons-for-action{
+        gap: 20px;
+        flex-direction: column;
+    }
+}
