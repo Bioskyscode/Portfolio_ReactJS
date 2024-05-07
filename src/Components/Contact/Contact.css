@@ -37,13 +37,9 @@ input {
     display: flex;
     color: var(--text-color-focus);
     margin: 30px auto;
+    border: 1px solid white;
 }
 
-.submit:hover {
-    /* padding-block: 9px; */
-    color: black;
-    transition-duration: 1s;
-}
 
 i {
     color: rgb(172, 7, 248);
@@ -67,9 +63,6 @@ h5 {
     color: #f87171;
     font-size: small;
 }
-/* #toastId .Toastify__toast-icon{
-    width: 3px;
-} */
 
 @media (max-width:1000px) {
     .contact-section {

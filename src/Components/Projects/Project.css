@@ -45,6 +45,11 @@
 .live-demo{
     margin: 0 auto;
     padding: 7px 20px;
+    color: black;
+}
+
+.live-demo a{
+    color: var(--text-color-focus);
     
 }
 button i{
