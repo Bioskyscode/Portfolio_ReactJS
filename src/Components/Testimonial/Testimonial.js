@@ -15,20 +15,20 @@ const Testimonial = () => {
         },
         {
             name: "Fatanmi",
-            position: "Product Owner",
+            position: "Software Developer",
             des: "His passion for design and development shines through in every aspect of his work. His works not only beautiful but also significantly improved user experience.",
             img: "https://media.licdn.com/dms/image/D4E03AQH9KfMEhBynGw/profile-displayphoto-shrink_100_100/0/1695704366767?e=1720656000&v=beta&t=sIiIzPFFXYpeDs1sRTgIAxj1ryGaePVhh7Alv50j5N8",
         },
         {
             name: "Fikayo",
             position: "Network Engineer| Systems Engineer | IoT",
-            des: "His expertise in UX/UI design has made a noticeable difference in how our users interact with our site.",
+            des: "His expertise in UX/UI design has made a noticeable difference in how users interact with his sites.",
             img: "https://media.licdn.com/dms/image/D4E03AQF_xm8vbVUJBw/profile-displayphoto-shrink_100_100/0/1670662803039?e=1720656000&v=beta&t=4esMtIRGvmbbRN6yyPWsXZM2ysQ00vpi2WVQDWa9oEY",
         },
         {
             name: "Fola",
             position: "Web Developer",
-            des: "I was really impressed with his technical expertise and professionalism",
+            des: "I am really impressed with his technical expertise and professionalism",
             img: "https://media.licdn.com/dms/image/D4D03AQGoaq0klxu4Mg/profile-displayphoto-shrink_200_200/0/1694642470642?e=2147483647&v=beta&t=inF2uXSy-T5KaGWxri8fxvze15sdxjySQcAzRpvWda4",
         },
         {
