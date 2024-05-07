@@ -49,7 +49,7 @@ const Project = () => {
 
         {
             name: "Insight-Inn",
-            des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
+            des: "This is single-page app enables users to read different advices as much as they want. It also has the functionality that enable users to leave review based on their level of satisfaction.",
             projectlink: "https://iyanju-app-b4yr.vercel.app/",
             techused: [
                 {

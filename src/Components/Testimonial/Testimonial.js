@@ -10,40 +10,40 @@ const Testimonial = () => {
         {
             name: "Ayodeji",
             position: "Project Manager",
-            des: "Normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+            des: "His  ability to balance form and function is truly exceptional. Our site is not only visually stunning but also incredibly user-friendly.",
             img: "https://media.licdn.com/dms/image/C4D03AQEUvX_f5QN_vA/profile-displayphoto-shrink_800_800/0/1648865648256?e=2147483647&v=beta&t=WRQfH_UrKFVQ6IbjR9uIejLR-fRis2HHm7UfQztHDD4",
         },
         {
             name: "Fatanmi",
-            position: "Software Engineer",
-            des: "He was good at his work. He worked on several complex project",
-            img: "https://images.pexels.com/photos/2589409/pexels-photo-2589409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            position: "Product Owner",
+            des: "His passion for design and development shines through in every aspect of his work. His works not only beautiful but also significantly improved user experience.",
+            img: "https://media.licdn.com/dms/image/D4E03AQH9KfMEhBynGw/profile-displayphoto-shrink_100_100/0/1695704366767?e=1720656000&v=beta&t=sIiIzPFFXYpeDs1sRTgIAxj1ryGaePVhh7Alv50j5N8",
         },
         {
             name: "Fikayo",
-            position: "Marketing Manager",
-            des: "He was good at his work. He worked on several complex project",
-            img: "https://images.pexels.com/photos/3757004/pexels-photo-3757004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            position: "Network Engineer| Systems Engineer | IoT",
+            des: "His expertise in UX/UI design has made a noticeable difference in how our users interact with our site.",
+            img: "https://media.licdn.com/dms/image/D4E03AQF_xm8vbVUJBw/profile-displayphoto-shrink_100_100/0/1670662803039?e=1720656000&v=beta&t=4esMtIRGvmbbRN6yyPWsXZM2ysQ00vpi2WVQDWa9oEY",
         },
         {
             name: "Fola",
             position: "Web Developer",
-            des: "He was good at his work. He worked on several complex project",
-            img: "https://images.pexels.com/photos/2776582/pexels-photo-2776582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            des: "I was really impressed with his technical expertise and professionalism",
+            img: "https://media.licdn.com/dms/image/D4D03AQGoaq0klxu4Mg/profile-displayphoto-shrink_200_200/0/1694642470642?e=2147483647&v=beta&t=inF2uXSy-T5KaGWxri8fxvze15sdxjySQcAzRpvWda4",
         },
         {
-            name: "Primus",
-            position: "Developer",
+            name: "Moses",
+            position: "Teaching Assistant- PhD",
             des: "He was good at his work. He worked on several complex project",
-            img: "https://images.pexels.com/photos/4498876/pexels-photo-4498876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            img: "https://media.licdn.com/dms/image/C4D03AQErir9MdCRSuw/profile-displayphoto-shrink_100_100/0/1620827803821?e=1720656000&v=beta&t=giU3b46xZywFefHElcdCWX2BFXQGphWG8QuZPbqFYbg",
         },
 
-        {
-            name: "Dare",
-            position: "Developer",
-            des: "He was good at his work. He worked on several complex project",
-            img: "https://images.pexels.com/photos/884422/pexels-photo-884422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        },
+        // {
+        //     name: "Dare",
+        //     position: "Developer",
+        //     des: "If you're looking for a creative, reliable, and highly skilled web developer, look no further than him",
+        //     img: "",
+        // },
         
     ];
 
