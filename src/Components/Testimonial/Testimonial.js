@@ -15,7 +15,7 @@ const Testimonial = () => {
         },
         {
             name: "Fatanmi",
-            position: "Software Developer",
+            position: "Senior Software Developer",
             des: "His passion for design and development shines through in every aspect of his work. His works not only beautiful but also significantly improved user experience.",
             img: "https://media.licdn.com/dms/image/D4E03AQH9KfMEhBynGw/profile-displayphoto-shrink_100_100/0/1695704366767?e=1720656000&v=beta&t=sIiIzPFFXYpeDs1sRTgIAxj1ryGaePVhh7Alv50j5N8",
         },
@@ -27,7 +27,7 @@ const Testimonial = () => {
         },
         {
             name: "Fola",
-            position: "Web Developer",
+            position: "Senior FullStack Developer",
             des: "I am really impressed with his technical expertise and professionalism",
             img: "https://media.licdn.com/dms/image/D4D03AQGoaq0klxu4Mg/profile-displayphoto-shrink_200_200/0/1694642470642?e=2147483647&v=beta&t=inF2uXSy-T5KaGWxri8fxvze15sdxjySQcAzRpvWda4",
         },
@@ -38,12 +38,12 @@ const Testimonial = () => {
             img: "https://media.licdn.com/dms/image/C4D03AQErir9MdCRSuw/profile-displayphoto-shrink_100_100/0/1620827803821?e=1720656000&v=beta&t=giU3b46xZywFefHElcdCWX2BFXQGphWG8QuZPbqFYbg",
         },
 
-        // {
-        //     name: "Dare",
-        //     position: "Developer",
-        //     des: "If you're looking for a creative, reliable, and highly skilled web developer, look no further than him",
-        //     img: "",
-        // },
+         {
+             name: "Omotola",
+             position: "Software Tester",
+             des: "If you're looking for a creative, reliable, and highly skilled web developer, look no further than him",
+             img: "https://media.licdn.com/dms/image/C4D03AQHGlWmo-HKhMg/profile-displayphoto-shrink_200_200/0/1664234619585?e=1720656000&v=beta&t=vHn9K8jvkMyP3BOSfi8wJ9ew62QmM19aZpeYBjCOsRQ",
+         },
         
     ];
 
@@ -96,7 +96,7 @@ const Testimonial = () => {
                     {data.map((item, index) => (
                        
                             <div className='content-slider-main' key={index}>
-                                <motion.div initial={{ scale: 0 }} whileInView={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 20 }}  className='content-slider' >
+                                <motion.div initial={{ scale: 0 }} animate={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 20 }}  className='content-slider' >
                                     <img className='slider-img' src={item.img} alt='img'></img>
                                     <p>{item.des}</p>
                                     <p>{item.name}</p>

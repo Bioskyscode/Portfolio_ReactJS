@@ -1,13 +1,13 @@
 .contact-section {
-    height: 700px;
+    height: auto;
     margin-bottom: 30px;
-    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.4);
     margin: auto;
 }
 
 
 #dark .contact-section {
-    box-shadow: 15px 9px 9px -2px rgba(39, 39, 39, 0.86);
+    box-shadow: 15px 9px 9px -2px rgba(39, 39, 39, 0.4);
 }
 
 .conntact-form-design {

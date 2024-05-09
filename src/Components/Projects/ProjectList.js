@@ -11,13 +11,15 @@ const ProjectList = ({ name, des, projectlink, techused }) => {
     }
     
     return (
-            <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", stiffness: 70 }} className='project-list'>
+            <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }}
+            whileHover={{ y:-7 }} transition={{ type: "spring", stiffness: 70 }}
+            className='project-list'>
                 <div className='title-and-collapse-option'>
                     <h5>{name}</h5>
                     <p onClick={showMore}> {show ? <i className="fa-solid fa-angle-up fa-xl"></i> : <i className="fa-solid fa-angle-down fa-xl"></i>}</p>
                 </div>
                 <div className='proj-description'>
-                {show ? <p>{des}</p> : <p>{des.substring(0, 130)} ... <span onClick={showMore} className='read-more'>Read more</span></p>}
+                {show ? <p>{des}</p> : <p>{des.substring(0, 130)} ...<span onClick={showMore} className='read-more'>Read more</span></p>}
                 </div>
                 
 

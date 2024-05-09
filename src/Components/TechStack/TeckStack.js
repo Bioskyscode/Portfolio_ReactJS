@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 
 const TeckStack = () => {
     const techstacks = [
-        { name: "Web Developer" },
         { name: "Vanila Js" },
         { name: "React Js" },
         { name: "Embedded JS" },

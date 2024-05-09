@@ -10,19 +10,19 @@ const WorkExperience = () => {
         {
             companyname: "Biqx GmbH",
             location: "Braunschweig, Germany",
-            position: "Automation Software Tester",
-            des: "Write automation scripts to detect bugs in application functionalities that run periodically on version control system with downloadable test results.",
-            year: "2023-present",
+            position: "Software Developer",
+            des: "Using modern web technologies like React.Js, Bootstrap, Tailwind, CSS etc to develope user-centric applications",
+            year: "2023-Present",
 
             techskills: [
                 {
-                    techname: "Python",
+                    techname: "React JS",
                 },
                 {
-                    techname: "Robotframework",
+                    techname: "Bootstrap",
                 },
                 {
-                    techname: "Javascript",
+                    techname: "Tailwind",
                 },
                 {
                     techname: "GitLab",
@@ -35,7 +35,7 @@ const WorkExperience = () => {
             location: "Nürnberg, Germany",
             position: "UI/UX Designer",
             des: "Create intuitive experience for application that is responsive across different devices and screen sizes. Create user interaction with Motion Design",
-            year: "2022",
+            year: "2022-2023",
 
             techskills: [
                 {
@@ -50,7 +50,7 @@ const WorkExperience = () => {
             location: "Ilmenau, Germany",
             position: "Web Developer",
             des: "Design and Development of a responsive product website using modern web development technology HTML5, CSS3 and JavaScript.",
-            year: "2020-2021",
+            year: "2020-2022",
 
             techskills: [
                 {

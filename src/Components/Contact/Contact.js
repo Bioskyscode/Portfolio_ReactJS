@@ -134,8 +134,9 @@ const Contact = () => {
                                 <label className='form-label'>Job Type</label>
                                 <select className='custom-select-tag'
                                     name="job_type" value={jobtype} onChange={e => setJobtype(e.target.value)}
-                                    style={!jobtype ? { border: "1px solid #fecaca" } : { border: "1px solid #14b8a6" }}
+                                    style={!jobtype ? { border: "1px solid #fecaca",  background: "white" } : { border: "1px solid #14b8a6", background: "white" }}
                                 >
+                                    <option></option>
                                     <option>Full-Time</option>
                                     <option>Part-Time</option>
                                     <option>Others</option>

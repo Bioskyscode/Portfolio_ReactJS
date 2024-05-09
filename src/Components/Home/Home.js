@@ -12,7 +12,7 @@ const Home = ({ changeTheme, theme }) => {
     startLeft: { x: -300, opacity: 0 },
     fadeRight: { x: 0, opacity: 1, transition: { type: "spring", stiffness: 110 } },
     startRight: { x: 200, opacity: 0 },
-    fadeLeft: { x: 0, opacity: 1, transition: { delay: 0.7, type: "spring", stiffness: 120 } },
+    fadeLeft: { x: 0, opacity: 1, transition: { delay: 0.2, type: "spring", stiffness: 120 } },
     zoom: { scale: 1.1 }
   }
   return (
@@ -41,11 +41,12 @@ const Home = ({ changeTheme, theme }) => {
             <Typewriter
               options={{
                 strings: ['Fullstack Web Developer',
-                  'Automation Software Tester',
-                  'UI/UX Designer'],
+                'UI/UX Designer',
+                'Automation Software Tester',
+              ],
                 autoStart: true,
                 loop: true,
-                pauseFor: 5000
+                // pauseFor: 5000
               }}
             />
           </h4>

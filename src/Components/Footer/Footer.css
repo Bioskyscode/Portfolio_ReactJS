@@ -35,3 +35,6 @@
     background-color: black;
     color: white;
 }
+#dark .content a{
+    color: rgb(119, 117, 117);
+}
