@@ -96,7 +96,12 @@ const Testimonial = () => {
                     {data.map((item, index) => (
                        
                             <div className='content-slider-main' key={index}>
-                                <motion.div initial={{ scale: 0 }} animate={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 20 }}  className='content-slider' >
+                                <motion.div 
+                                initial={{ scale: 0 }} 
+                                whileInView={{ scale: 0.9 }} 
+                                transition={{ type: "spring", stiffness: 20 }}  
+                                viewport={{once:true}}
+                                className='content-slider' >
                                     <img className='slider-img' src={item.img} alt='img'></img>
                                     <p>{item.des}</p>
                                     <p>{item.name}</p>

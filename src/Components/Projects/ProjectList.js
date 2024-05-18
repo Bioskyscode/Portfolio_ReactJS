@@ -11,8 +11,12 @@ const ProjectList = ({ name, des, projectlink, techused }) => {
     }
     
     return (
-            <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }}
-            whileHover={{ y:-7 }} transition={{ type: "spring", stiffness: 70 }}
+            <motion.div 
+            initial={{ y:200, x:200, opacity:0 }} 
+            whileInView={{  y: 0, x:0, opacity:1 }} 
+            viewport={{once:true}}
+            whileHover={{ y:-7 }} 
+            transition={{ type: "spring", stiffness: 110 }}
             className='project-list'>
                 <div className='title-and-collapse-option'>
                     <h5>{name}</h5>

@@ -14,6 +14,7 @@ const TeckStack = () => {
         { name: "jQuery" },
         { name: "SQL" },
         { name: "Postgres" },
+        { name: "Firebase" },
         { name: "CSS" },
         { name: "SASS" },
         { name: "Bootstrape" },
@@ -36,7 +37,13 @@ const TeckStack = () => {
             </div>
             <div className='row tech-grid1'>
                 {techstacks.slice(0, showMoreTeckStack).map((tech, index) => (
-                    <motion.div initial={{ y: 200, opacity:0 }} whileInView={{ y: 0, opacity:1 }} transition={{ type: "spring", stiffness: 70 }} className='col-xl-4 col-lg-4 col-md-6 col-sm-12' key={index} >
+                    <motion.div 
+                    initial={{ y: 200, opacity:0 }} 
+                    whileInView={{ y: 0, opacity:1 }} 
+                    transition={{ type: "spring", stiffness: 70 }} 
+                    viewport={{once:true}}
+                    className='col-xl-4 col-lg-4 col-md-6 col-sm-12' 
+                    key={index} >
                         <div className={index === 0 ? 'first-tech-content tech-content' : 'tech-content'}>
                             <span className='tech-num' style={{ backgroundColor: colors[index] }}>{index + 1}</span>
                             <p>{tech.name}</p>
