@@ -23,7 +23,7 @@ const ProjectList = ({ name, des, projectlink, techused }) => {
                     <p onClick={showMore}> {show ? <i className="fa-solid fa-angle-up fa-xl"></i> : <i className="fa-solid fa-angle-down fa-xl"></i>}</p>
                 </div>
                 <div className='proj-description'>
-                {show ? <p>{des}</p> : <p>{des.substring(0, 130)} ...<span onClick={showMore} className='read-more'>Read more</span></p>}
+                {show ? <p>{des}</p> : <p>{des.substring(0, 95)} ...<span onClick={showMore} className='read-more'>Read more</span></p>}
                 </div>
                 
 

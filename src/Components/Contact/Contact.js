@@ -4,12 +4,13 @@ import "./Contact.css"
 import { motion } from 'framer-motion';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import env from "dotenv"
+// import dotenv from 'dotenv'
 
+// env.config()
 const Contact = () => {
-    // const SERVICE_ID = process.env.EMAILJS_SERVICE_ID
-    // const TEMPLATE_ID = process.env.EMAILJS_TEMPLATE_ID
-    // const PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY
+    //  const SERVICE_ID = process.env.EMAILJS_SERVICE_ID
+    //  const TEMPLATE_ID = process.env.EMAILJS_TEMPLATE_ID
+    //  const PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY
     const form = useRef()
 
     const [name, setName] = useState("");
@@ -53,6 +54,9 @@ const Contact = () => {
 
     const sendEmail = (event) => {
         event.preventDefault();
+        // console.log("ServiceId", SERVICE_ID)
+        // console.log("TemplateId", TEMPLATE_ID)
+        // console.log("Key", PUBLIC_KEY)
         if (!name) {
             return (toast.error("Please enter your name"), toast.clearWaitingQueue())
         } else if (name.length <= 3) {
