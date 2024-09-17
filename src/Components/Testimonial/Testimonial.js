@@ -17,13 +17,13 @@ const Testimonial = () => {
             name: "Fatanmi",
             position: "Senior Software Developer",
             des: "His passion for design and development shines through in every aspect of his work. His works not only beautiful but also significantly improved user experience.",
-            img: "https://media.licdn.com/dms/image/D4E03AQH9KfMEhBynGw/profile-displayphoto-shrink_100_100/0/1695704366767?e=1720656000&v=beta&t=sIiIzPFFXYpeDs1sRTgIAxj1ryGaePVhh7Alv50j5N8",
+            img: "https://media.licdn.com/dms/image/v2/D4E03AQH9KfMEhBynGw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695704366767?e=1732147200&v=beta&t=i_ETIcEo70gZo5rsTZEjZZeWWiGHIRnHXX1HWxivM_0",
         },
         {
             name: "Fikayo",
             position: "Network Engineer| Systems Engineer | IoT",
             des: "His expertise in UX/UI design has made a noticeable difference in how users interact with his sites.",
-            img: "https://media.licdn.com/dms/image/D4E03AQF_xm8vbVUJBw/profile-displayphoto-shrink_100_100/0/1670662803039?e=1720656000&v=beta&t=4esMtIRGvmbbRN6yyPWsXZM2ysQ00vpi2WVQDWa9oEY",
+            img: "https://media.licdn.com/dms/image/v2/D4E03AQF_xm8vbVUJBw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1670662803039?e=1732147200&v=beta&t=DpwdmqGM12pWMUby4lEc5OD1_oYBIErkFabQfP27UPg",
         },
         {
             name: "Fola",
@@ -35,14 +35,14 @@ const Testimonial = () => {
             name: "Moses",
             position: "Teaching Assistant- PhD",
             des: "He was good at his work. He worked on several complex project",
-            img: "https://media.licdn.com/dms/image/C4D03AQErir9MdCRSuw/profile-displayphoto-shrink_100_100/0/1620827803821?e=1720656000&v=beta&t=giU3b46xZywFefHElcdCWX2BFXQGphWG8QuZPbqFYbg",
+            img: "https://media.licdn.com/dms/image/v2/C4D03AQErir9MdCRSuw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1620827803821?e=1732147200&v=beta&t=2Pn9opgTgsqT2a9bGBUyhyjpoftIMnm9gBBX4_7GEE8",
         },
 
          {
              name: "Omotola",
              position: "Software Tester",
              des: "If you're looking for a creative, reliable, and highly skilled web developer, look no further than him",
-             img: "https://media.licdn.com/dms/image/C4D03AQHGlWmo-HKhMg/profile-displayphoto-shrink_200_200/0/1664234619585?e=1720656000&v=beta&t=vHn9K8jvkMyP3BOSfi8wJ9ew62QmM19aZpeYBjCOsRQ",
+             img: "https://media.licdn.com/dms/image/v2/D4D03AQEJCdLT4WoGLg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725382904355?e=1732147200&v=beta&t=btZxgYuSZTynEUNLZSuol4tCy0im7m05Y2Fqfilaft8",
          },
         
     ];

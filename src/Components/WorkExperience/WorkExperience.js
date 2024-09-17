@@ -10,22 +10,25 @@ const WorkExperience = () => {
         {
             companyname: "Biqx GmbH",
             location: "Braunschweig, Germany",
-            position: "Software Developer",
-            des: "Using modern web technologies like React.Js, Bootstrap, Tailwind, CSS etc to develope user-centric applications",
-            year: "2023-Present",
+            position: "Software Tester",
+            des: "Using modern QA technologies and methodology to ensure the quality of software applications and to discover their weak-points and any sorf of defects or mismatch",
+            year: "2023-2024",
 
             techskills: [
                 {
-                    techname: "React JS",
+                    techname: "Robotframework",
                 },
                 {
-                    techname: "Bootstrap",
+                    techname: "Python",
                 },
                 {
-                    techname: "Tailwind",
+                    techname: "GitLab-CI",
                 },
                 {
-                    techname: "GitLab",
+                    techname: "Selenium",
+                },
+                {
+                    techname: "Git",
                 },
             ],
         },
@@ -40,6 +43,9 @@ const WorkExperience = () => {
             techskills: [
                 {
                     techname: "Figma",
+                },
+                {
+                    techname: "Motion Design",
                 },
                
             ],
@@ -67,6 +73,32 @@ const WorkExperience = () => {
                 },
             ],
         },
+
+        {
+            companyname: "Myrioi Solutions",
+            location: "Remote, Nigeria",
+            position: "Software Tester",
+            des: "Using modern QA technologies and methodology to ensure the quality of software applications and to discover their weak-points and any sorf of defects or mismatch",
+            year: "2017-2022",
+
+            techskills: [
+                {
+                    techname: "Jenkins",
+                },
+                {
+                    techname: "Playwrite",
+                },
+                {
+                    techname: "Cypress",
+                },
+                {
+                    techname: "Selenium",
+                },
+                {
+                    techname: "Java",
+                },
+            ],
+        },
     ];
 
 
@@ -83,11 +115,11 @@ const WorkExperience = () => {
                     {work.map((item, index) => (
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: colors[index], color: '#e0f2fe' }}
+                            contentStyle={{ background: colors[index+4], color: '#e0f2fe' }}
                             contentArrowStyle={{ borderRight: '7px solid  #a21caf' }}
                             date={item.year}
                             dateClassName='date-class'
-                            iconStyle={{ background: colors[index], color: '#fff' }}
+                            iconStyle={{ background: colors[index+4], color: '#fff' }}
                             icon={<MdGroupWork />}
                             key={index}
                         >
@@ -96,7 +128,7 @@ const WorkExperience = () => {
                             <div className='row'>
                                 {item.techskills.map((tech, index) => (
                                     <div className='col-xl-6 col-lg-4 col-md-6 col-sm-12 ' key={index}>
-                                        <div style={{background:colors[index +6]}} className='tech-skill color'> {tech.techname}</div>
+                                        <div style={{background:colors[index+7]}} className='tech-skill color'> {tech.techname}</div>
                                     </div>
                                 ))}
 
